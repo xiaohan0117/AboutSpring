@@ -14,9 +14,9 @@
                           
 ## 2、SpringMVC和Struts2的区别<br>
    1>**struts2**  的核心是基于Filter的，即StrutsPreparedAndExecuteFilter;<br>
-    &nbsp;&nbsp;&nbsp;**springMVC**的核心是基于Servlet的，即前端处理器（DispatcherServlet）;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;**springMVC**的核心是基于Servlet的，即前端处理器（DispatcherServlet）;<br>
    2>**struts2**  是基于类开发的，传递的参数是通过属性传递（属性驱动或者模型驱动），所以只能设计为多例模式;<br>
-    &nbsp;&nbsp;&nbsp;**springMVC**是基于类中的方法开发的，也就是一个url对应一个方法，传递参数是传到方法的形参上面，所以既可以是单例模式的也可以是多例模式;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;**springMVC**是基于类中的方法开发的，也就是一个url对应一个方法，传递参数是传到方法的形参上面，所以既可以是单例模式的也可以是多例模式;<br>
    3>**struts2**  struts2采用的是值栈存储请求以及响应数据，OGNL存取数据;<br>
-    &nbsp;&nbsp;&nbsp;**springMVC**采用request来解析请求内容，然后由内部的getParameter给方法中形参赋值，再把后台处理过的数据通过ModelAndView对象存储，Model存储数据，VIew存储视图，再把对象通过request传递到页面去;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;**springMVC**采用request来解析请求内容，然后由内部的getParameter给方法中形参赋值，再把后台处理过的数据通过ModelAndView对象存储，Model存储数据，VIew存储视图，再把对象通过request传递到页面去;<br>
    
