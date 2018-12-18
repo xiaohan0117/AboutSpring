@@ -20,3 +20,4 @@
    3>**struts2**  struts2采用的是值栈存储请求以及响应数据，OGNL存取数据;<br>
     &nbsp;&nbsp;&nbsp;&nbsp;**springMVC**采用request来解析请求内容，然后由内部的getParameter给方法中形参赋值，再把后台处理过的数据通ModelAndView对象存储，Model存储数据，VIew存储视图，再把对象通过request传递到页面去;<br>
    
+* 1
