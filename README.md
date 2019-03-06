@@ -1,6 +1,6 @@
 # 一、关于springMvc<br>
 ## 1、SpringMVC的工作原理：<br>
-   1>用户发送请求至处理器映射器（DispatcherServlet）<br>
+   1>用户发送请求至前端控制器（DispatcherServlet）<br>
    2>DispatcherServlet接收到请求调用处理器映射器HandlerMapping<br>
    3>处理器映射器找到具体的处理器，（可以根据xml配置，注解进行查找），生成处理器对象及处理器拦截器（有则生成）并返回给                                  DispatcherServlet<br>
    4>DispatcherServlet调用处理器适配器（HandlerAdapter）<br>
